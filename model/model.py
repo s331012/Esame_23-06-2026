@@ -9,4 +9,4 @@ class Model:
 
     def load_all_users(self):
         self._users_list = Dao.read_all_users()
-        print(f"Users: {self._users_list}")
+        print(f"Users: {self._users_list}") 7
