@@ -66,7 +66,7 @@ class View:
             width=200,
             disabled=True
         )
-
+        self._btnSequenza = ftElevatedButton(text="cerca sequenza",disabled=True, on_click=self._controller.handler_untenti_connessi)
         self._btnSequenza = ft.ElevatedButton(
             text="Cerca Sequenza",
             disabled=True
